@@ -12,6 +12,12 @@ The take away messages are:
 Running `mvn clean install -fn` on this project will result in war-deps-via-war failing, since SomeClass will
 not be on its classpath.
 
+See the following for more details:
+
+* https://jira.codehaus.org/browse/MWAR-253
+* http://stackoverflow.com/questions/1769586/maven-war-dependency
+* http://stackoverflow.com/questions/14728040/wtp-m2e-not-deploying-transitive-dependencies
+
 ## Modules
 
 * **war-deps-dependency-a**: Contains SomeClass, which other modules will look for on the classpath.
